@@ -1,3 +1,5 @@
+*Read this in other languages: [English](README_en.md) | [Bahasa Indonesia](README.md)*
+
 # 🕊️ Biopygeon
 **The Last Mile Publication Aggregator & Intelligent Bioinformatics Assistant**
 
