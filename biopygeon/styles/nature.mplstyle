@@ -1,0 +1,38 @@
+# Matplotlib style for Nature Journal formatting
+# Font and Text
+font.family         : sans-serif
+font.sans-serif     : Arial, Helvetica, sans-serif
+font.size           : 7.0
+axes.titlesize      : 8.0
+axes.labelsize      : 7.0
+xtick.labelsize     : 7.0
+ytick.labelsize     : 7.0
+legend.fontsize     : 7.0
+legend.title_fontsize: 7.0
+
+# Line widths (Nature standard is 0.5 - 1.5 pt)
+axes.linewidth      : 0.5
+lines.linewidth     : 1.0
+lines.markersize    : 3.0
+patch.linewidth     : 0.5
+
+# Ticks
+xtick.major.width   : 0.5
+ytick.major.width   : 0.5
+xtick.major.size    : 3.0
+ytick.major.size    : 3.0
+xtick.direction     : out
+ytick.direction     : out
+
+# No Grid
+axes.grid           : False
+
+# Figure size (Nature single column is ~89mm or 3.5 inches)
+figure.figsize      : 3.5, 3.5
+figure.dpi          : 300
+savefig.dpi         : 300
+savefig.bbox        : tight
+savefig.pad_inches  : 0.05
+
+# Colors (Colorblind friendly by default)
+axes.prop_cycle     : cycler('color', ['0072B2', 'D55E00', '009E73', 'CC79A7', 'F0E442', '56B4E9', 'E69F00', '000000'])
